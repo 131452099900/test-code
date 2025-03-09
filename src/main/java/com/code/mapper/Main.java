@@ -27,7 +27,7 @@ public class Main {
             return;
         }
 
-        // 必须使用能力读的次数 K = n - m
+        // 必须使用能力读的次数 K = n - m1
         int K = n - m;
 
         // dp[i][j] 表示处理完前 i 页、用了 j 次能力读所获得的“损失”（未除以 2）的最小值
