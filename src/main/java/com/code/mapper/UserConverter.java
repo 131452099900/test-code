@@ -12,6 +12,7 @@ import org.mapstruct.factory.Mappers;
  **/
 @Mapper
 public interface UserConverter {
+    // aaa
     public static void main(String[] args) {
         UserDto userDto = new UserDto();
         userDto.setId(1L);
